@@ -4,7 +4,8 @@
   "authors": "Meir017",
   "version": "3.15.0",
   "scripts": {
-    "test": "jasmine test/**/*spec.js --reporter=jasmine-console-reporter"
+    "test": "jasmine test/**/*spec.js --reporter=jasmine-console-reporter",
+    "test_download_package_json": "node ./bin/download-tgz package-json D:/temp/package.json"
   },
   "keywords": [
     "tgz",
