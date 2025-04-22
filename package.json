@@ -5,7 +5,8 @@
   "version": "3.15.0",
   "scripts": {
     "test": "jasmine test/**/*spec.js --reporter=jasmine-console-reporter",
-    "test_download_package_json": "node ./bin/download-tgz package-json D:/temp/package.json"
+    "test_download_package_json": "node ./bin/download-tgz package-json D:/temp/package.json --devDependencies --peerDependencies",
+    "test_download_package": "node ./bin/download-tgz package element-plus 2.9.8 --devDependencies --peerDependencies"
   },
   "keywords": [
     "tgz",

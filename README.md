@@ -16,6 +16,7 @@ Downloads all of the tarballs based on one of the following:
 
 ```bash
 npm install node-tgz-downloader -g
+npm link node-tgz-downloader
 ```
 
 ## usage
